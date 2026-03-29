@@ -1,0 +1,21 @@
+# Pastas de compilação e binários
+bin/
+obj/
+
+# Banco de dados local (SQLite)
+# Como você está usando DBeaver e o arquivo app.db aparece ali, 
+# é melhor não subir o banco com dados de teste para o Git.
+*.db
+*.db-shm
+*.db-wal
+
+# Arquivos do Visual Studio / VS Code
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Configurações de ambiente (User Secrets)
+appsettings.Development.json
